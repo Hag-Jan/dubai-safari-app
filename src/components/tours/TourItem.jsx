@@ -1,6 +1,6 @@
 import Rating from "./Rating"
 
-const TourItem = (item) => {
+const TourItem = ({item}) => {
     return (
         <div className="tour-item">
             <img src={item.image} alt={item.title} className="tour-item-img" />
@@ -15,12 +15,12 @@ const TourItem = (item) => {
                 <div className="tour-item-price">
                     <strong>From ${item.priceFrom}</strong>per person
                 </div>
-                <button className="tour-item-link">
-                    See More
-                </button>
+                <button className="tour-item-link">See More</button>
             </div>
         </div>
     );
 }
 
 export default TourItem;
+
+

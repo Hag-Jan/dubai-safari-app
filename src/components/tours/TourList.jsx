@@ -1,6 +1,3 @@
-
-import { toursList } from "../../data";
-import Rating from "./Rating";
 import TourItem from "./TourItem";
 import "./tour-list.css"
 

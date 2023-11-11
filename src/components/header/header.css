@@ -42,6 +42,7 @@
     font-weight: 500;
     color: var(--primary-text-color);
     cursor: pointer;
+    text-decoration: none;
 
 }
 
